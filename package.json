@@ -1,0 +1,28 @@
+{
+  "name": "url-shortening-microservice",
+  "version": "0.0.1",
+  "description": "Shortens urls.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "nedb": "^1.8.0"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/shortn-url"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {
+    "morgan": "^1.9.0"
+  }
+}
